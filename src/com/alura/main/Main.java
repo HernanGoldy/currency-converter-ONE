@@ -12,10 +12,10 @@ public class Main {
         System.out.println("***************** Conversor de Monedas ******************");
         String menu = """
                 Opciones:
-                1 - Dólar EEUU -→ Peso Argentino | 5 - Dólar EEUU -→ Peso Colombiano
-                2 - Peso Argentino -→ Dólar EEUU | 6 - Peso Colombiano -→ Dólar EEUU
-                3 - Dólar EEUU -→ Real Brasilero | 9 - Salir
-                4 - Real Brasilero -→ Dólar EEUU |
+                1 - Dólar EEUU (USD) -----→ Peso Argentino (ARS) | 5 - Dólar EEUU (USD) ------→ Peso Colombiano (COP)
+                2 - Peso Argentino (ARS) -→ Dólar EEUU (USD)     | 6 - Peso Colombiano (COP) -→ Dólar EEUU (USD)
+                3 - Dólar EEUU (USD) -----→ Real Brasilero (BRL) | 9 - Salir
+                4 - Real Brasilero (BRL) -→ Dólar EEUU (USD)     |
                 » Escriba el múmero de la opción que desea ejecutar:
                 """;
 
