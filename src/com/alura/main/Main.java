@@ -62,7 +62,7 @@ public class Main {
                         System.out.print(mensajeMonto);
                         double amount = lectura.nextDouble();
                         var converted = pair.pairBrlUsd(amount);
-                        System.out.println(amount + " BRL " + "equivale a " + converted + " BRL.");
+                        System.out.println(amount + " BRL " + "equivale a " + converted + " USD.");
                         System.out.println(divisorMenu);
                     }
                     case 5 -> {
