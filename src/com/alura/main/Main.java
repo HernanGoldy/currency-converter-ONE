@@ -16,7 +16,7 @@ public class Main {
                 Opciones disponibles:
                 1 - Dólar EEUU     (USD) -→ Peso Argentino (ARS) | 5 - Dólar EEUU      (USD) -→ Peso Colombiano (COP)
                 2 - Peso Argentino (ARS) -→ Dólar EEUU     (USD) | 6 - Peso Colombiano (COP) -→ Dólar EEUU      (USD)
-                3 - Dólar EEUU     (USD) -→ Real Brasilero (BRL) | 9 - Salir
+                3 - Dólar EEUU     (USD) -→ Real Brasilero (BRL) | 9 - Salir del programa
                 4 - Real Brasilero (BRL) -→ Dólar EEUU     (USD) |
                 Escriba el múmero de la opción que desea ejecutar:
                 »\t""";
