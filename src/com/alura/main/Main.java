@@ -7,8 +7,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        int option = 0;
-
         System.out.print("""
                 ┌----------------------------------------------------------------------------------------------------┐
                 |                                      Conversor de Monedas                                          |
@@ -22,15 +20,15 @@ public class Main {
                 4 - Real Brasilero (BRL) -→ Dólar EEUU     (USD) |
                 Escriba el múmero de la opción que desea ejecutar:
                 »\t""";
-
-        Scanner lectura = new Scanner(System.in);
-        PairConversion pair = new PairConversion();
         String mensajeMonto = """
                 Escriba el monto a convertir:
                 »\t""";
         String divisorMenu = "********************************************" +
                 "*********************************************************";
 
+        Scanner lectura = new Scanner(System.in);
+        int option = 0;
+        PairConversion pair = new PairConversion();
 
         while (option != 9) {
             System.out.print(menu);
