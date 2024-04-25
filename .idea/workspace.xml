@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9d2612-9a73-425e-a16c-ad7db0ba0b75" name="Changes" comment="Modifico mensaje del menú">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alura/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <workItem from="1714004269411" duration="1551000" />
       <workItem from="1714043853602" duration="3360000" />
       <workItem from="1714047992687" duration="947000" />
-      <workItem from="1714049027529" duration="2801000" />
+      <workItem from="1714049027529" duration="3009000" />
     </task>
     <task id="LOCAL-00001" summary="Agrego funcionalidades de cambio de pares">
       <created>1714048128351</created>
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714048819255</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modifico mensaje del menú">
+      <created>1714051930659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714051930659</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
