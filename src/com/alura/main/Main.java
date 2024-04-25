@@ -3,6 +3,7 @@ package com.alura.main;
 import com.alura.models.PairConversion;
 
 import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +14,7 @@ public class Main {
                 └----------------------------------------------------------------------------------------------------┘
                 """);
         String menu = """
-                Opciones disponibles:
+                Menú - Opciones disponibles:
                 1 - Dólar EEUU     (USD) -→ Peso Argentino (ARS) | 5 - Dólar EEUU      (USD) -→ Peso Colombiano (COP)
                 2 - Peso Argentino (ARS) -→ Dólar EEUU     (USD) | 6 - Peso Colombiano (COP) -→ Dólar EEUU      (USD)
                 3 - Dólar EEUU     (USD) -→ Real Brasilero (BRL) | 9 - Salir del programa
@@ -21,7 +22,7 @@ public class Main {
                 Escriba el múmero de la opción que desea ejecutar:
                 »\t""";
         String mensajeMonto = """
-                Escriba el monto a convertir:
+                Escriba el monto (en números) a convertir:
                 »\t""";
         String divisorMenu = "********************************************" +
                 "*********************************************************";
@@ -29,56 +30,66 @@ public class Main {
         Scanner lectura = new Scanner(System.in);
         int option = 0;
         PairConversion pair = new PairConversion();
+        int intentosFallidos = 0;
 
         while (option != 9) {
             System.out.print(menu);
-            option = lectura.nextInt();
-
-            switch (option) {
-                case 1 -> {
-                    System.out.print(mensajeMonto);
-                    double amount = lectura.nextDouble();
-                    var converted = pair.pairUsdArs(amount);
-                    System.out.println(amount + " USD " + "equivale a " + converted + " ARS.");
-                    System.out.println(divisorMenu);
+            try {
+                option = lectura.nextInt();
+                switch (option) {
+                    case 1 -> {
+                        System.out.print(mensajeMonto);
+                        double amount = lectura.nextDouble();
+                        var converted = pair.pairUsdArs(amount);
+                        System.out.println(amount + " USD " + "equivale a " + converted + " ARS.");
+                        System.out.println(divisorMenu);
+                    }
+                    case 2 -> {
+                        System.out.print(mensajeMonto);
+                        double amount = lectura.nextDouble();
+                        var converted = pair.pairArsUsd(amount);
+                        System.out.println(amount + " ARS " + "equivale a " + converted + " USD.");
+                        System.out.println(divisorMenu);
+                    }
+                    case 3 -> {
+                        System.out.print(mensajeMonto);
+                        double amount = lectura.nextDouble();
+                        var converted = pair.pairUsdBrl(amount);
+                        System.out.println(amount + " UDS " + "equivale a " + converted + " BRL.");
+                        System.out.println(divisorMenu);
+                    }
+                    case 4 -> {
+                        System.out.print(mensajeMonto);
+                        double amount = lectura.nextDouble();
+                        var converted = pair.pairBrlUsd(amount);
+                        System.out.println(amount + " BRL " + "equivale a " + converted + " BRL.");
+                        System.out.println(divisorMenu);
+                    }
+                    case 5 -> {
+                        System.out.print(mensajeMonto);
+                        double amount = lectura.nextDouble();
+                        var converted = pair.pairUsdCop(amount);
+                        System.out.println(amount + " USD " + "equivale a " + converted + " COP.");
+                        System.out.println(divisorMenu);
+                    }
+                    case 6 -> {
+                        System.out.print(mensajeMonto);
+                        double amount = lectura.nextDouble();
+                        var converted = pair.pairCopUsd(amount);
+                        System.out.println(amount + " COP " + "equivale a " + converted + " USD.");
+                        System.out.println(divisorMenu);
+                    }
+                    case 9 -> System.out.println("Saliendo del programa, gracias por utilizar nuestros servicios.");
                 }
-                case 2 -> {
-                    System.out.print(mensajeMonto);
-                    double amount = lectura.nextDouble();
-                    var converted = pair.pairArsUsd(amount);
-                    System.out.println(amount + " ARS " + "equivale a " + converted + " USD.");
-                    System.out.println(divisorMenu);
+            } catch (InputMismatchException e) {
+                intentosFallidos++;
+                if (intentosFallidos < 3) {
+                    System.out.println("¡Opción inválida! Por favor escriba correcatmente las instrucciones indicadas.\n" + divisorMenu);
+                } else {
+                    System.out.println("¡Demasiados intentos fallidos! Fin el programa.");
+                    return;
                 }
-                case 3 -> {
-                    System.out.print(mensajeMonto);
-                    double amount = lectura.nextDouble();
-                    var converted = pair.pairUsdBrl(amount);
-                    System.out.println(amount + " UDS " + "equivale a " + converted + " BRL.");
-                    System.out.println(divisorMenu);
-                }
-                case 4 -> {
-                    System.out.print(mensajeMonto);
-                    double amount = lectura.nextDouble();
-                    var converted = pair.pairBrlUsd(amount);
-                    System.out.println(amount + " BRL " + "equivale a " + converted + " BRL.");
-                    System.out.println(divisorMenu);
-                }
-                case 5 -> {
-                    System.out.print(mensajeMonto);
-                    double amount = lectura.nextDouble();
-                    var converted = pair.pairUsdCop(amount);
-                    System.out.println(amount + " USD " + "equivale a " + converted + " COP.");
-                    System.out.println(divisorMenu);
-                }
-                case 6 -> {
-                    System.out.print(mensajeMonto);
-                    double amount = lectura.nextDouble();
-                    var converted = pair.pairCopUsd(amount);
-                    System.out.println(amount + " COP " + "equivale a " + converted + " USD.");
-                    System.out.println(divisorMenu);
-                }
-                case 9 -> System.out.println("Saliendo del programa, gracias por utilizar nuestros servicios.");
-                default -> System.out.println("Opción inválida, verifique las opciones disponibles.");
+                lectura.nextLine();
             }
         }
     }

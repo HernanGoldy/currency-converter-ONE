@@ -81,7 +81,8 @@
       <workItem from="1714004269411" duration="1551000" />
       <workItem from="1714043853602" duration="3360000" />
       <workItem from="1714047992687" duration="947000" />
-      <workItem from="1714049027529" duration="5504000" />
+      <workItem from="1714049027529" duration="5917000" />
+      <workItem from="1714055078802" duration="7696000" />
     </task>
     <task id="LOCAL-00001" summary="Agrego funcionalidades de cambio de pares">
       <created>1714048128351</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714053872761</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modifico Main">
+      <created>1714054963934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714054963934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
