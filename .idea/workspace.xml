@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9d2612-9a73-425e-a16c-ad7db0ba0b75" name="Changes" comment="Agrego funcionalidades de cambio de pares">
+    <list default="true" id="ff9d2612-9a73-425e-a16c-ad7db0ba0b75" name="Changes" comment="Modifico mensaje del menú">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/main/Main.java" afterDir="false" />
     </list>
@@ -80,7 +80,8 @@
       <workItem from="1713971789557" duration="14884000" />
       <workItem from="1714004269411" duration="1551000" />
       <workItem from="1714043853602" duration="3360000" />
-      <workItem from="1714047992687" duration="758000" />
+      <workItem from="1714047992687" duration="947000" />
+      <workItem from="1714049027529" duration="2801000" />
     </task>
     <task id="LOCAL-00001" summary="Agrego funcionalidades de cambio de pares">
       <created>1714048128351</created>
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714048128351</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modifico mensaje del menú">
+      <created>1714048819255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714048819255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agrego funcionalidades de cambio de pares" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrego funcionalidades de cambio de pares" />
+    <MESSAGE value="Modifico mensaje del menú" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifico mensaje del menú" />
   </component>
 </project>
