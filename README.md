@@ -17,3 +17,5 @@ El programa presentado permite ejecutar una serie de consultas a una API para re
 1. Realice una copia de este repositorio o descargue el archivo ZIP.
 2. Antes de ejecutar el programa asegúrese de tener instalado en su PC la versión del [JDK 17](https://jdk.java.net/java-se-ri/17).
 3. El programa no cuenta con interfaz gráfica por lo que deberá ejecutarlo a través de la CLI o del IDE de su preferencia.
+4.
+5. ![Animation](https://github.com/HernanGoldy/currency-converter-ONE/assets/86393163/21670e14-fa22-4e5d-8283-678b5df64b91)
