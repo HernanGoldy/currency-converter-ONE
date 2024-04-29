@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9d2612-9a73-425e-a16c-ad7db0ba0b75" name="Changes" comment="Modifico README">
+    <list default="true" id="ff9d2612-9a73-425e-a16c-ad7db0ba0b75" name="Changes" comment="Modifico Main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/programming/ConversorDeMonedas-main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/programming/Alura/3ra_etapa/05 Challenge ONE/currency-converter-ONE&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -82,7 +83,9 @@
       <workItem from="1714047992687" duration="947000" />
       <workItem from="1714049027529" duration="5917000" />
       <workItem from="1714055078802" duration="7801000" />
-      <workItem from="1714063036131" duration="3890000" />
+      <workItem from="1714063036131" duration="5004000" />
+      <workItem from="1714406070847" duration="187000" />
+      <workItem from="1714406271467" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="Agrego funcionalidades de cambio de pares">
       <created>1714048128351</created>
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714071487371</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modifico Main">
+      <created>1714071844704</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714071844704</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,9 +184,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agrego funcionalidades de cambio de pares" />
     <MESSAGE value="Modifico mensaje del menú" />
-    <MESSAGE value="Modifico Main" />
     <MESSAGE value="Agrego excepciones" />
     <MESSAGE value="Modifico README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifico README" />
+    <MESSAGE value="Modifico Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifico Main" />
   </component>
 </project>

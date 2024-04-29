@@ -80,6 +80,7 @@ public class Main {
                         System.out.println(divisorMenu);
                     }
                     case 9 -> System.out.println("Saliendo del programa, gracias por utilizar nuestros servicios.");
+                    default -> System.out.println("¡Opción inválida! Por favor escriba correcatmente las instrucciones indicadas.\n" + divisorMenu);
                 }
             } catch (InputMismatchException e) {
                 intentosFallidos++;
